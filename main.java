@@ -5,6 +5,7 @@ public class main {
    public static void main(String[] args) {
       array = new int[] { 12, 234, 346, 457, 76, 68, 76, 45, 623, 57, 58, 67, 8, 54, 24, 3, 6, 476, 83, 24, 67, 63, 2, 6, 9, 2, 1, 6, 235, 56 };
       numeroRepeticionesArray();
+      insertarNumeros();
    }
 
    public static void insertarNumeros() {
@@ -12,6 +13,7 @@ public class main {
          int n = (int) Math.random() * (10 + 1);
          array[i] = n;
       }
+      System.out.println("Esto es una prueba");
    }
 
    public static void verContenidoArray() {
